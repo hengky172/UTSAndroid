@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" [routerLink] ="['/folder/inbox']">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title>ABOUT ME</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" class="ion-padding">
+    <img src="../../assets/hengky.jpeg" width="200" alt="">
+    <p>Name : Hengky Darmawan</p>
+    <p>Tanggal Lahir : 22 Febuari 2021</p>
+    <p>Jurusan : Teknik Informatika</p>
+    <p>Angkatan : 2019</p>
+    <p>Alamat : Jakarta Barat</p>
+  </div>
+  <footer><b>Copyright &copy; 2021 HengkyDarmawan</b></footer>
+</ion-content>
